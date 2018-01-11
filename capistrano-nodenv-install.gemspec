@@ -5,11 +5,11 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 Gem::Specification.new do |gem|
   gem.name          = "capistrano-nodenv-install"
   gem.version       = '0.0.1'
-  gem.authors       = ["Jonathon Storer"]
-  gem.email         = ["jonathon.scott.storer@gmail.com"]
+  gem.authors       = ["Jeremy Russell"]
+  gem.email         = ["jeremycrussell@gmail.com"]
   gem.description   = %q{ensure nodenv integration for Capistrano}
   gem.summary       = %q{ensure nodenv integration for Capistrano}
-  gem.homepage      = "https://github.com/jonstorer/capistrano-nodenv-install"
+  gem.homepage      = "https://github.com/jeremycrussell/capistrano-nodenv-install"
 
   gem.files         = `git ls-files`.split($/)
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
